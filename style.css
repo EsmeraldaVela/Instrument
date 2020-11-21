@@ -1,0 +1,29 @@
+.instrument{
+  height:350px;
+  width:250px;
+  border:solid 1px black;
+  position:relative;
+  font-family: Roboto, sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+}
+
+.PopDiv{
+  height:100%;
+  width:100%;
+  background-color:rgba(189, 255, 242, 1);
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+img{
+  height:200px;
+}
